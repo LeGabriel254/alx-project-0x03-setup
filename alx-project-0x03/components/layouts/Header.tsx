@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Button from "../common/Button";
 
-
 const Header: React.FC = () => {
   return (
     <header className="fixed w-full bg-white shadow-md">
