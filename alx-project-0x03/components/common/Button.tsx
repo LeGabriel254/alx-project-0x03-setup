@@ -1,12 +1,4 @@
- 
- // Defining the interface for the Button component's props 
-interface ButtonProps{
-  buttonLabel:string
-  buttonSize?:string
-  buttonBackgroundColor?:'red' | 'blue' |'orange' | 'green'
-  action?: () => void // Optional function to handle button clicks
-};
-
+import { ButtonProps } from "@/interface";
 
 //Defining button component
 const Button = ({buttonLabel , buttonSize, buttonBackgroundColor  , action }: ButtonProps) => {
