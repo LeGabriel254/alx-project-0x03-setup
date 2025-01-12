@@ -1,4 +1,5 @@
 import Button from "@/components/common/Button";
+import { PageRouteProps } from "@/interfaces";
 import { useRouter } from "next/router";
 
 interface PageRouteProps {
