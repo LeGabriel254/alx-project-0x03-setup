@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaHome } from 'react-icons/fa'; 
+import { FaHome } from 'react-icons/fa';
 
 const Custom404 = () => {
   return (
